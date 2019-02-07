@@ -5,11 +5,11 @@ dld.keyset('YOUR_NAME')
 *input,
         @face.png
 
-MATCH;
-        INPUT, COMPARE 'NAME'
-
 NAME;
         FACE1, FACE2, FACE3
+
+MATCH;
+        INPUT, COMPARE 'NAME'
 
 COMPARE, input;
         {POST, "NAME" on MATCH}

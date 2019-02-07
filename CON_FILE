@@ -1,0 +1,18 @@
+dld.keyset('YOUR_NAME')
+*CATCH-lib -R FS_2019
+*Catch-lib -L my_faces
+
+*input,
+        @face.png
+
+MATCH;
+        INPUT, COMPARE 'NAME'
+
+NAME;
+        FACE1, FACE2, FACE3
+
+COMPARE, input;
+        {POST, "NAME" on MATCH}
+
+
+*END*

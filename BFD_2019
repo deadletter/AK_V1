@@ -1,0 +1,40 @@
+*lib - BFD_2019
+*// Copyright 2018 Coffee Heist
+    Basic data-base of faces for FS demo tutorials, Created FEBUARY 7 2019
+//*
+
+   
+@; 
+	https://dld.domain.com/
+
+
+FACE1;
+ {
+	
+	F_0, @FACE1-0.png
+	F_1, @FACE1-1.png
+	F_2, @FACE1-2.png
+  
+  }
+
+FACE2;
+ {
+	
+	F_0, @FACE2-0.png
+	F_1, @FACE2-1.png
+	F_2, @FACE2-2.png
+  
+  }
+  
+  FACE3;
+ {
+	
+	F_0, @FACE3-0.png
+	F_1, @FACE3-1.png
+	F_2, @FACE3-2.png
+  
+  }
+
+/recall -- Oxford University Press
+
+*END*t
